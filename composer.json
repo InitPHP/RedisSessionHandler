@@ -1,0 +1,25 @@
+{
+    "name": "initphp/redis-session-handler",
+    "description": "PHP Redis Session Handler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "InitPHP\\RedisSessionHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammet ŞAFAK",
+            "email": "info@muhammetsafak.com.tr",
+            "role": "Developer",
+            "homepage": "https://www.muhammetsafak.com.tr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-redis": "*",
+        "initphp/redis": "^1.0"
+    }
+}
